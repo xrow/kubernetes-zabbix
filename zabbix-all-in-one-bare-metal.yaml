@@ -7,6 +7,7 @@ metadata:
 spec:
   ports:
   - port: 80
+    name: zabbix-web
     targetPort: 80
   selector:
     name: zabbix-web
